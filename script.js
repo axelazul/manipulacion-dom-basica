@@ -8,7 +8,7 @@ const form = document.querySelector("#form");
 form.addEventListener("submit", sumarInputsValues); //PREGUNTA DE EXAMEN POR QUE EL EVENTO AQUI NO SE LLAMA CON PARENTESIS Y EN HTML SII
 
  function sumarInputsValues(event){
-    const sumaInputs =input1.value + input2.value;
+    const sumaInputs =input1.value + " " + input2.value;
     pResult.innerText ="Resultado: " + sumaInputs;
     console.log({event});
     event.preventDefault();
